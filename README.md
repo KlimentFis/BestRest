@@ -2,19 +2,14 @@
 
 ## Установка
 
-Клонирование проекта:
+Клонирование и переход в папку проекта:
 ```shell
-git clone https://github.com/KlimentFis/BestRest
+git clone https://github.com/KlimentFis/BestRest && cd BestRest
 ```
 
-Установка виртуального окружения (Не обязательно):
+Установка и активация виртуального окружения (Не обязательно):
 ```shell
-python -m venv venv
-```
-
-Создание папки git (Не обязательно):
-```shell
-git init
+python -m venv venv && venv\Scripts\activate.bat
 ```
 
 Установка зависимостей:
